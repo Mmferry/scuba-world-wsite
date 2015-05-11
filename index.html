@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Scuba World</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/mobile.css" rel="stylesheet">
+
+    <script>
+    $(document).ready(function(){
+      var value = $('#myDropdown :selected').text();
+    });
+    </script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <div class="bg-slide">
+    <header class="container-fluid logos">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-3 hidden-xs hidden-sm">
+            <a class="link-fbook" href="#"><span class="fa fa-facebook fbook"></span></a>
+              <a class="link-gplus" href="#"><span class="fa fa-google-plus gplus"></span></a>
+                <a class="link-youtube" href="#"><span class="fa fa-youtube youtube"></span></a>
+          </div>
+
+          <div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-8 col-xs-8"><a href="#"><img class="img-responsive" src="images/logo.png" title="Scuba World" alt="Scuba World logo"></a></div>
+
+          <div class="col-lg-2 col-lg-offset-3 col-md-3 col-md-offset-2 col-sm-4 col-xs-4">
+              <a class="btn btn-sm btn-xs book-btn" href="#">Book Now</a>
+          </div>
+
+          <nav class="col-lg-12 navbar navbar-default"  id="menu">
+            <div class="navbar-header col-sm-12 col-xs-12">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+               <ul class="nav navbar-nav list-unstyled cp-ul">
+                  <li><a class="cp-btn active" href="#home">HOME</a></li>
+                  <li><a class="cp-btn" href="#aboutus">DIVING CENTERS</a></li>
+                  <li><a class="cp-btn" href="#ourservices">DAILY DIVING TRIPS</a></li>
+                  <li><a class="cp-btn" href="#news">WATERSPORTS</a></li>
+                  <li><a class="cp-btn" href="#clientes">LIVEABOARDS</a></li>
+                  <li><a class="cp-btn" href="#clientes">COURSES</a></li>
+                  <li><a class="cp-btn" href="#clientes">ABOUT US</a></li>
+                  <li><a class="cp-btn" href="#contactus">Contact US</a></li>
+               </ul>
+            </div>
+
+          </nav>
+        </div><!-- row end -->
+      </div><!-- container end -->
+    </header><!-- header end -->
+
+    <div class="container">
+      <div class="row destinations">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <h1>Scuba World</h1>
+          <h4>Explore the red sea</h4>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit</p>
+          <select id="divNoImage" class="desti">
+            <option value="1">please choose a destinatior</option>
+            <option value="2">Hurghada</option>
+            <option value="3">Soma Bay</option>
+            <option value="4">Marsa Alam</option>
+          </select>
+        </div>
+        <div class="col-lg-6 col-md-6 hidden-xs hidden-sm destinations-cities">
+          <div class="hurghada">
+            <a class="hurghada-btn" href="#">Hurghada</a>
+            <div class="line"></div>
+            <img src="images/location.png" alt="Hurghada destination" title="Hurghada destination">
+          </div>
+            <div class="soma">
+              <a class="soma-btn" href="#">Soma Bay</a>
+              <div class="line"></div>
+              <img src="images/location.png" alt="Soma Bay destination" title="Soma Bay destination">
+            </div>
+              <div class="marsa">
+                <a class="marsa-btn" href="#">Marsa Alam</a>
+                <div class="line"></div>
+                <img src="images/location.png" title="Marsa Alam destination" alt="Marsa Alam destination">
+              </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- bg slide end -->
+
+  <section class="coral">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 about-hurghada">
+          <img class="img-responsive" src="images/hurghada.png" title="get more about Hurghada" alt="get more about Hurghada">
+          <div class="text-center getmore-hurghada">
+            <h3>Hurghada</h3>
+            <p>Spanning over 40 km of pristine coastline, Hurghada City has year-round sunshine, incredibly beautiful coral reefs and dozens of exciting attractions in a laid back, relaxed atmosphere. </p>
+            <a class="btn btn-warning" href="#">Read More</a>
+          </div><!-- get more hurghada --> 
+        </div><!-- about hurghada end -->
+
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 about-hurghada">
+              <img class="img-responsive" src="images/soma.png" title="get more about Soma Bay" alt="get more about Soma Bay">
+              <div class="text-center getmore-hurghada">
+                <h3>Soma Bay</h3>
+                <p>Spanning over 40 km of pristine coastline, Hurghada City has year-round sunshine, incredibly beautiful coral reefs and dozens of exciting attractions in a laid back, relaxed atmosphere. </p>
+                <a class="btn btn-warning" href="#">Read More</a>
+              </div><!-- get more soma bay --> 
+            </div><!-- about soma bay end -->
+
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 about-hurghada">
+          <img class="img-responsive" src="images/marsa.png" title="get more about Marsa Alam" alt="get more about Marsa Alam">
+          <div class="text-center getmore-hurghada">
+            <h3>Marsa Alam</h3>
+            <p>Spanning over 40 km of pristine coastline, Hurghada City has year-round sunshine, incredibly beautiful coral reefs and dozens of exciting attractions in a laid back, relaxed atmosphere. </p>
+            <a class="btn btn-warning" href="#">Read More</a>
+          </div><!-- get more marsa alam --> 
+        </div><!-- about marsa alam end -->
+
+      </div><!-- row end -->
+    </div><!-- container end -->
+  </section>
+
+      <section class="get-touch">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 followus">
+              <h3>Follow Us</h3>
+                <p>Get our latest updates, videos and news delivered to 
+                  your facebook page, follow us and Share!</p>
+                  <a class="follow-fbook" href="#"><span class="fa fa-facebook"></span></a>
+                    <a class="follow-gplus" href="#"><span class="fa fa-google-plus"></span></a>
+                      <a class="follow-youtube" href="#"><span class="fa fa-youtube"></span></a>
+            </div>
+
+                <div class="col-lg-1 col-md-1 hidden-xs hidden-sm"><div class="v-line"></div></div>
+
+            <div class="col-lg-3 col-md-3 hidden-xs hidden-sm weather"> <!-- weather div start -->
+              <h3>Weather</h3>
+               <select id="myDropdown">
+                  <!-- jquery code -->
+                </select>
+                <div class="col-md-4" id="wxWrap">
+                  <span id="wxIntro">Air Temp :<br>
+                    <div id="weather"></div>
+                  </span>
+                </div>
+                <div class="col-md-4" id="wxWrap">
+                  <span id="wxIntro">Water Temp :</span>
+                  <span class="wxtemp"> 25°C</span>
+                </div>
+                <div class="col-md-12 clothes"><img src="images/tishirt.jpg"><p>Short diving vest recommnded</p></div>
+            </div> <!-- weather div end -->
+
+                <div class="col-lg-1 col-md-1 hidden-xs hidden-sm"><div class="v-line"></div></div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 subscribe"> <!-- subscribe div start-->
+              <h4>Be updated with our latest</h4>
+                <h2>News & Offers</h2>
+                  <form method="Get" id="subscribe-form">
+                    <input class="form-text" type="text" name="urname" placeholder="Name">
+                    <input class="form-text" type="email" name="email" placeholder="Email">
+                    <a href="#">unsubscribe from here</a>
+                    <input type="submit" value="subscribe" class="btn btn-info form-btn">
+                  </form>
+            </div> <!-- subscribe div end-->
+
+          </div><!-- row end -->
+        </div><!-- container end -->
+      </section>
+
+      <footer> <!-- footer start -->
+      <div class="container">
+        <small>Copyright © scuba world 2014 All Rights Reserved</small>
+        <a href="#"><small>Powered by innovix solutions</small></a>
+      </div>
+      </footer><!-- footer end -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/jquery.ddslick.min.js"></script>
+    <script src="js/jquery.simpleWeather.js"></script>
+
+      <script type="text/javascript">
+
+          $(document).ready(function() {
+                $.simpleWeather({
+                  location: 'Hurghada, EG',
+                  woeid: '',
+                  unit: 'c',
+                  success: function(weather) {
+                    html = '<h2><i class="icon-'+weather.code+'"></i> '+weather.temp+'&deg;'+weather.units.temp+'</h2>';
+                    
+                    $("#weather").html(html);
+                  },
+                  error: function(error) {
+                    $("#weather").html('<p>'+error+'</p>');
+                  }
+                });
+              });
+
+              //jquery code for active link in mune
+                $(".cp-ul a").click(function() {
+                    $('a').removeClass('active');
+                    $(this).addClass("active");
+                });
+
+                //jquery code for ddslick dropdown menu for cities
+                    var ddBasic = [
+                          
+                      ];
+
+                      $('#divNoImage').ddslick({
+                          data: ddBasic,
+                          selectText: "please choose a destinatior"
+                      });
+
+                      //Dropdown plugin data
+                      var ddData = [
+                          {
+                              text: "Hurghada",
+                          },
+                          {
+                              text: "Soma Bay",
+                          },
+                          {
+                              text: "Marsa Alam",
+                          }
+                      ];
+                      $('#myDropdown').ddslick({
+                          data:ddData,
+                          onSelected: function(selectedData){
+                              //callback function: do something with selectedData;
+                          }   
+                      });
+
+          </script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

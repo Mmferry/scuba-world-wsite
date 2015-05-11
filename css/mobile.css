@@ -1,0 +1,90 @@
+@media (min-width: 1290px) and (max-width: 1305px) {
+	.hurghada{
+	margin-top: 190px;
+	margin-left: 75px;
+	}
+	.soma{
+	margin-left: 25px;
+
+	}
+	.marsa{
+	margin-left: 33px;
+
+	}
+}
+/*==========================================================*/
+@media (min-width: 1200px) and (max-width: 1290px) {
+	.hurghada{
+	margin-top: 190px;
+	margin-left: 85px;
+	}
+	.soma{
+	margin-left: 43px;
+
+	}
+	.marsa{
+	margin-left: 49px;
+
+	}
+
+}
+@media (min-width: 1200px) and (max-width: 1290px) {
+	#menu .cp-ul li a {
+	  padding: 8px 15px;
+	  font-size: 13px;
+	}
+	.hurghada{
+	margin-top: 190px;
+	margin-left: 85px;
+	}
+	.soma{
+	margin-left: 43px;
+
+	}
+	.marsa{
+	margin-left: 49px;
+
+	}
+
+}
+@media (min-width: 944px) and (max-width: 1200px) {
+	#menu .cp-ul li a {
+	  padding: 8px 15px;
+	  font-size: 13px;
+	}
+	.hurghada{
+	margin-top: 216px;
+	margin-left: 153px;
+	}
+	.soma{
+	margin-left: 104px;
+
+	}
+	.marsa{
+	margin-left: 112px;
+  	margin-top: -10px;
+
+	}
+
+}
+@media (min-width: 920px) and (max-width: 1070px) {
+	.destinations-cities{
+		display: none;
+	}
+}
+@media (min-width: 765px) and (max-width: 989px) {
+
+	#menu .cp-ul li a {
+	  	padding: 5px 5px;
+  		font-size: 12px;
+	}
+}
+@media (min-width: 320px) and (max-width: 988px) {
+	.subscribe{
+		margin-top: 50px;
+	}
+	.followus{
+		text-align: center;
+	}
+}
+
